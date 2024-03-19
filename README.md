@@ -12,8 +12,6 @@ Read the gray and color image using imread()
 ### Step2:
 Print the image using imshow().
 
-
-
 ### Step3:
 Use calcHist() function to mark the image in graph frequency for gray and color image.
 
@@ -71,19 +69,17 @@ cv2.destroyAllWindows()
 ### Gray image:
 ![Screenshot 2024-03-19 114339](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/a98a9b60-278b-44ee-8b41-7c4e45d92bd9)
 
-![Uploading Screenshot 2024-03-19 114535.png…]()
+![Screenshot 2024-03-19 114535](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/56981fde-0854-4bae-8fc1-3d204b473cb8)
 
 ### color image:
-![Uploading Screenshot 2024-03-19 114346.png…]()
+![Screenshot 2024-03-19 114346](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/221b6c99-1c50-4d76-bdfa-f143b5e0513d)
 
 ![Screenshot 2024-03-19 114541](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/27e95a02-266a-4f50-b21b-a69ccf1ae449)
 
 ### Histogram Equalization of Grayscale Image.
 ![grey](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/39229e27-4995-443c-b1e8-49df475c2c70)
 
-
-
-
+![Equlaized](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/c9b05e5f-e794-4d55-ab5f-7097fb6313b5)
 
 ## Result: 
 Thus the histogram for finding the frequency of pixels in an image with pixel values ranging from 0 to 255 is obtained. Also,histogram equalization is done for the gray scale image using OpenCV.
