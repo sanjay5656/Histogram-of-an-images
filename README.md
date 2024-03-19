@@ -24,8 +24,8 @@ The Histogram of gray scale image and color image is shown.
 
 ## Program:
 
-### Developed By   : Sanjay S 
-### Register Number: 212221243002
+### Developed By    : Sanjay S 
+### Register Number : 212221243002
 ```python
 import cv2
 import matplotlib.pyplot as plt
@@ -62,7 +62,6 @@ cv2.destroyAllWindows()
 ## Output:
 ### Input Grayscale Image and Color Image
 ![grey](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/e5e9d119-cf02-4ceb-a73d-dbd06012b438)
-
 ![color](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/2e342273-fb7d-4a35-bf25-8bdca6d21498)
 
 ### Histogram of Grayscale Image and any channel of Color Image
@@ -78,7 +77,6 @@ cv2.destroyAllWindows()
 
 ### Histogram Equalization of Grayscale Image.
 ![grey](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/39229e27-4995-443c-b1e8-49df475c2c70)
-
 ![Equlaized](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/c9b05e5f-e794-4d55-ab5f-7097fb6313b5)
 
 ## Result: 
