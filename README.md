@@ -25,25 +25,62 @@ The Histogram of gray scale image and color image is shown.
 
 
 ## Program:
+
+### Developed By   : Sanjay S 
+### Register Number: 212221243002
 ```python
-# Developed By: 
-# Register Number: 
+import cv2
+import matplotlib.pyplot as plt
+Gray_image = cv2.imread('dip_ex03_grey.jpeg')
+Color_image = cv2.imread('dip_ex03_color.jpg')
+plt.imshow(Gray_image)
+plt.show()
+plt.imshow(Color_image)
+plt.show()
 
+hist=cv2.calcHist([Gray_image],[0],None,[256],[0,256])
+hist1=cv2.calcHist([Color_image],[1],None,[256],[0,256])
 
+plt.figure()
+plt.title("Histogram")
+plt.xlabel('grayscale value')
+plt.ylabel('pixel count')
+plt.stem(hist)
+plt.show()
 
+plt.figure()
+plt.title("Histogram")
+plt.xlabel('color value')
+plt.ylabel('pixel count')
+plt.stem(hist1)
+plt.show()
 
-
-
+gray_image=cv2.imread("dip_ex03_grey.jpeg",0)
+equ=cv2.equalizeHist(gray_image)
+cv2.imshow("Equlaized image",equ)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 ```
 ## Output:
 ### Input Grayscale Image and Color Image
+![grey](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/e5e9d119-cf02-4ceb-a73d-dbd06012b438)
 
+![color](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/2e342273-fb7d-4a35-bf25-8bdca6d21498)
 
 ### Histogram of Grayscale Image and any channel of Color Image
+### Gray image:
+![Screenshot 2024-03-19 114339](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/a98a9b60-278b-44ee-8b41-7c4e45d92bd9)
 
+![Uploading Screenshot 2024-03-19 114535.png…]()
 
+### color image:
+![Uploading Screenshot 2024-03-19 114346.png…]()
+
+![Screenshot 2024-03-19 114541](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/27e95a02-266a-4f50-b21b-a69ccf1ae449)
 
 ### Histogram Equalization of Grayscale Image.
+![grey](https://github.com/sanjay5656/Histogram-of-an-images/assets/115128955/39229e27-4995-443c-b1e8-49df475c2c70)
+
 
 
 
